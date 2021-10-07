@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*Custom styles*/
+/*..........................................................Container...................................................*/
+
+.container{
+    max-width: 1400px;
+    margin:0 auto;
+}
+
+/*...............................................................FLEX......................................................*/
+
+.flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*......................................................................Body.....................................................*/
+body{
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5;
+}
+
+/*...............................................................Headings.........................................................*/
+
+h1,h2,h3{
+    font-family: 'DM Serif Display', serif;
+
+}
+
+h1{
+    font-size:42px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    padding-bottom:10px;  
+}
+
+h2{
+    font-size:38px;
+    text-transform: capitalize;
+    padding-bottom:10px;  
+}
+
+p{
+    padding-bottom:10px;
+}
+
+/*......................................................HEADER......................................................................*/
+.header{
+    height: 50px;
+    line-height: 50px;
+}
+
+.company-name{
+    font-family: 'DM Serif Display', serif;
+    color:rgb(20, 20, 58);
+    font-size: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:gray;
+    font-weight:700;
+}
+.nav-links{
+    margin-left: 10px;
+}
+.view-plans{
+
+    margin-left: 10px;
+    background-color:inherit;
+    padding:10px;
+    border-radius: 5px;
+    border:1px solid gray;
+
+}
+
+/*..............................................................Section 1...................................................*/
+.hero{
+    background-color:rgb(20, 20, 58);
+    color:whitesmoke;
+    padding:80px 40px;
+}
+
+.description{
+    width:40%;
+}
+
+.sec1-text{
+    color: inherit;
+}
+
+.view-plans-sec1{
+
+    margin-left: 10px;
+    background-color:inherit;
+    padding:10px;
+    border-radius: 5px;
+    border:1px solid whitesmoke;
+}
+.plan-link{
+    color:whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.image{
+    width:40%;
+}
+
+.pic01{
+    position: absolute;
+}
+.pic02{
+    width:100%;
+}
+
+.sec2-heading{
+    color:rgb(20, 20, 58);
+    font-size:36px;
+    padding-bottom:10px; 
+}
+
+.view-plans-sec2{
+
+    margin-left: 10px;
+    background-color:inherit;
+    padding:10px;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+
+.plan-link-sec2{
+    color:grey;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about{
+    padding-top: 350px;
+}
+/*.......................................Section3..................................................*/
+.col{
+    width: 25%;
+}
+
+.text{
+    text-align: justify;
+}
+
+/*.......................................Section 4......................................................*/
+.how-we-work{
+    background-color:rgb(20, 20, 58);
+    color:whitesmoke;
+    padding:40px;
+}
+
+.thirty{
+    width:30%;
+}
+.flex-end{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.margin-right{
+    margin-right: 40px;
+}
+
+.margin-left{
+    margin-left: 40px;
+}
+
+/*...........................................Section 5....................................................*/
+.social-media{
+    height: 50px;
+    line-height: 50px;
+}
+
+.social{
+    font-size: 40px;
+}
+
+
+/*.................................................Footer.....................................................*/
+
+.bottom{
+    text-align: center;
+}
+.bottom-links{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:grey;
+    padding:10px;
+}
+
+/*...............................................Footer............................................................*/
+.footer{
+    padding:20px;
+    background-color:rgb(20, 20, 58);
+    color:grey;
+    text-align: center;
+}
+
+
+.gallery,.how-we-work,.social-media,.bottom,.footer{
+    padding:20px 0;
+}
+
+
+.hr{
+
+    color:grey;
+    border:1px solid grey;
+}
+
+
+.left{
+    text-align: left;
+    width:15%;
+    margin-left: 0;
+}
